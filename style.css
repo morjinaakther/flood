@@ -36,10 +36,11 @@
 
 .button {
     text-decoration: none;
-    padding: 5px 30px;
+    padding: 10px 30px;
     background-color: red;
     color: white;
     border-radius: 5%;
+    margin-top: 10%;
 
 
 }
@@ -48,18 +49,16 @@
     text-align: center;
     padding: 2%;
     margin-top: 5%;
-    margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
+
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-
     flex-direction: row;
-
 }
 
 .box {
@@ -68,7 +67,6 @@
     margin: 20px;
     background-color: antiquewhite;
     text-align: center;
-
 }
 
 .taka {
@@ -77,39 +75,17 @@
 
 }
 
-.row {
-    margin-top: 5%;
+.description {
     display: flex;
+    margin-left: 10%;
 }
 
-.colum-1 {
-
-    height: 50%;
-    background-color: aquamarine;
-    padding: 20px 12px;
-    border-radius: 10px;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.half-width {
+    width: 50%
 }
 
-.colum-2 {
-    height: 50%;
-    background-color: wheat;
-    padding: 20px 12px;
-    border-radius: 10px;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-
-}
-
-.colum-3 {
-    background-color: lightgreen;
-    padding: 20px 12px;
-    border-radius: 10px;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.half-width img {
+    width: 80%;
+    padding: 20px;
+    border-radius: 10%;
 }
